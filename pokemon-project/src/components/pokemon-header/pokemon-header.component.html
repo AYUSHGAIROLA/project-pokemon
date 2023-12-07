@@ -27,7 +27,7 @@
     </div>
   
     <div class="filter-component">
-      <mat-label class="filter">Filter by Type</mat-label>
+      <mat-label class="filter">Type</mat-label>
       <mat-form-field class="form-field">
         <mat-select [(ngModel)]="currentType" (ngModelChange)="onTypeSelected()">
           <mat-option>None</mat-option>
@@ -39,7 +39,7 @@
     </div>
   
     <div class="filter-component">
-      <mat-label class="filter">Filter by Abilities</mat-label>
+      <mat-label class="filter">Abilities</mat-label>
       <mat-form-field class="form-field">
         <mat-select [(ngModel)]="currentAbilities" (ngModelChange)="onAbilitySelected()" multiple>
             <mat-select-trigger>

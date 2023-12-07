@@ -93,6 +93,7 @@ export class PokemonHeaderComponent implements OnInit {
       pokemon.details.types.forEach(type => {
         const typeName = type.type.name;
         if (!this.types.includes(typeName)) {
+          console.log(typeName)
           this.types.push(typeName);
           this.types.sort();
         }

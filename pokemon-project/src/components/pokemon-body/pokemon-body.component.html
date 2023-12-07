@@ -6,6 +6,7 @@
         <mat-card class="pokemon-card" *ngIf="pokemon.details">
           <mat-card-title>{{ pokemon.name | titlecase }}</mat-card-title>
           <div class="id">{{ pokemon.id }}</div>
+          
           <div class="background-image">
             <img
               mat-card-image
@@ -22,6 +23,8 @@
                 {{ type.type.name | titlecase }}
               </div>
             </div>
+            
+            <mat-icon>info</mat-icon>
           </mat-card-content>
         </mat-card>
       </div>
